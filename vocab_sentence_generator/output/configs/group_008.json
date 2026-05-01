@@ -1,0 +1,126 @@
+{
+  "group_id": 8,
+  "words": [
+    {
+      "word": "Mr",
+      "pos": "n"
+    },
+    {
+      "word": "leave",
+      "pos": "v"
+    },
+    {
+      "word": "again",
+      "pos": "r"
+    },
+    {
+      "word": "point",
+      "pos": "n"
+    },
+    {
+      "word": "put",
+      "pos": "v"
+    },
+    {
+      "word": "where",
+      "pos": "r"
+    },
+    {
+      "word": "home",
+      "pos": "n"
+    },
+    {
+      "word": "mean",
+      "pos": "v"
+    },
+    {
+      "word": "right",
+      "pos": "r"
+    },
+    {
+      "word": "water",
+      "pos": "n"
+    },
+    {
+      "word": "keep",
+      "pos": "v"
+    },
+    {
+      "word": "off",
+      "pos": "r"
+    },
+    {
+      "word": "room",
+      "pos": "n"
+    },
+    {
+      "word": "let",
+      "pos": "v"
+    },
+    {
+      "word": "always",
+      "pos": "r"
+    },
+    {
+      "word": "mother",
+      "pos": "n"
+    },
+    {
+      "word": "begin",
+      "pos": "v"
+    },
+    {
+      "word": "today",
+      "pos": "r"
+    },
+    {
+      "word": "area",
+      "pos": "n"
+    },
+    {
+      "word": "seem",
+      "pos": "v"
+    },
+    {
+      "word": "all",
+      "pos": "r"
+    },
+    {
+      "word": "money",
+      "pos": "n"
+    },
+    {
+      "word": "help",
+      "pos": "v"
+    },
+    {
+      "word": "far",
+      "pos": "r"
+    },
+    {
+      "word": "story",
+      "pos": "n"
+    },
+    {
+      "word": "talk",
+      "pos": "v"
+    },
+    {
+      "word": "long",
+      "pos": "r"
+    },
+    {
+      "word": "fact",
+      "pos": "n"
+    },
+    {
+      "word": "turn",
+      "pos": "v"
+    },
+    {
+      "word": "away",
+      "pos": "r"
+    }
+  ],
+  "prompt": "You are an English vocabulary sentence generator for Chinese learners.\n\nDifficulty: hard\n\nTarget words:\n[\n  {\n    \"word\": \"Mr\",\n    \"pos\": \"n\"\n  },\n  {\n    \"word\": \"leave\",\n    \"pos\": \"v\"\n  },\n  {\n    \"word\": \"again\",\n    \"pos\": \"r\"\n  },\n  {\n    \"word\": \"point\",\n    \"pos\": \"n\"\n  },\n  {\n    \"word\": \"put\",\n    \"pos\": \"v\"\n  },\n  {\n    \"word\": \"where\",\n    \"pos\": \"r\"\n  },\n  {\n    \"word\": \"home\",\n    \"pos\": \"n\"\n  },\n  {\n    \"word\": \"mean\",\n    \"pos\": \"v\"\n  },\n  {\n    \"word\": \"right\",\n    \"pos\": \"r\"\n  },\n  {\n    \"word\": \"water\",\n    \"pos\": \"n\"\n  },\n  {\n    \"word\": \"keep\",\n    \"pos\": \"v\"\n  },\n  {\n    \"word\": \"off\",\n    \"pos\": \"r\"\n  },\n  {\n    \"word\": \"room\",\n    \"pos\": \"n\"\n  },\n  {\n    \"word\": \"let\",\n    \"pos\": \"v\"\n  },\n  {\n    \"word\": \"always\",\n    \"pos\": \"r\"\n  },\n  {\n    \"word\": \"mother\",\n    \"pos\": \"n\"\n  },\n  {\n    \"word\": \"begin\",\n    \"pos\": \"v\"\n  },\n  {\n    \"word\": \"today\",\n    \"pos\": \"r\"\n  },\n  {\n    \"word\": \"area\",\n    \"pos\": \"n\"\n  },\n  {\n    \"word\": \"seem\",\n    \"pos\": \"v\"\n  },\n  {\n    \"word\": \"all\",\n    \"pos\": \"r\"\n  },\n  {\n    \"word\": \"money\",\n    \"pos\": \"n\"\n  },\n  {\n    \"word\": \"help\",\n    \"pos\": \"v\"\n  },\n  {\n    \"word\": \"far\",\n    \"pos\": \"r\"\n  },\n  {\n    \"word\": \"story\",\n    \"pos\": \"n\"\n  },\n  {\n    \"word\": \"talk\",\n    \"pos\": \"v\"\n  },\n  {\n    \"word\": \"long\",\n    \"pos\": \"r\"\n  },\n  {\n    \"word\": \"fact\",\n    \"pos\": \"n\"\n  },\n  {\n    \"word\": \"turn\",\n    \"pos\": \"v\"\n  },\n  {\n    \"word\": \"away\",\n    \"pos\": \"r\"\n  }\n]\n\nTask:\n1. Write one or more natural English sentences.\n2. Use as many target words as possible, preferably all of them.\n3. In English sentences, wrap every target word in Markdown bold, for example **apple**.\n4. Provide a Chinese translation for each English sentence.\n5. Provide a concise Chinese meaning for every target word.\n6. Keep the difficulty aligned with the selected level: easy, medium, or hard.\n\nOutput only valid JSON. Do not include Markdown fences or explanations.\n\nRequired JSON schema:\n{\n  \"word_meanings\": [\n    {\n      \"word\": \"apple\",\n      \"pos\": \"noun\",\n      \"chinese_meaning\": \"苹果\"\n    }\n  ],\n  \"sentences\": [\n    {\n      \"english\": \"I **eat** an **apple** every morning.\",\n      \"chinese\": \"我每天早上吃一个苹果。\"\n    }\n  ]\n}\n"
+}

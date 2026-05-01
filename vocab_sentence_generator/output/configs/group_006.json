@@ -1,0 +1,126 @@
+{
+  "group_id": 6,
+  "words": [
+    {
+      "word": "problem",
+      "pos": "n"
+    },
+    {
+      "word": "look",
+      "pos": "v"
+    },
+    {
+      "word": "out",
+      "pos": "i"
+    },
+    {
+      "word": "such",
+      "pos": "d"
+    },
+    {
+      "word": "there",
+      "pos": "r"
+    },
+    {
+      "word": "long",
+      "pos": "j"
+    },
+    {
+      "word": "hand",
+      "pos": "n"
+    },
+    {
+      "word": "use",
+      "pos": "v"
+    },
+    {
+      "word": "against",
+      "pos": "i"
+    },
+    {
+      "word": "few",
+      "pos": "d"
+    },
+    {
+      "word": "down",
+      "pos": "r"
+    },
+    {
+      "word": "little",
+      "pos": "j"
+    },
+    {
+      "word": "part",
+      "pos": "n"
+    },
+    {
+      "word": "find",
+      "pos": "v"
+    },
+    {
+      "word": "during",
+      "pos": "i"
+    },
+    {
+      "word": "most",
+      "pos": "d"
+    },
+    {
+      "word": "still",
+      "pos": "r"
+    },
+    {
+      "word": "important",
+      "pos": "j"
+    },
+    {
+      "word": "place",
+      "pos": "n"
+    },
+    {
+      "word": "give",
+      "pos": "v"
+    },
+    {
+      "word": "without",
+      "pos": "i"
+    },
+    {
+      "word": "each",
+      "pos": "d"
+    },
+    {
+      "word": "in",
+      "pos": "r"
+    },
+    {
+      "word": "political",
+      "pos": "j"
+    },
+    {
+      "word": "case",
+      "pos": "n"
+    },
+    {
+      "word": "tell",
+      "pos": "v"
+    },
+    {
+      "word": "before",
+      "pos": "i"
+    },
+    {
+      "word": "both",
+      "pos": "d"
+    },
+    {
+      "word": "as",
+      "pos": "r"
+    },
+    {
+      "word": "bad",
+      "pos": "j"
+    }
+  ],
+  "prompt": "You are an English vocabulary sentence generator for Chinese learners.\n\nDifficulty: hard\n\nTarget words:\n[\n  {\n    \"word\": \"problem\",\n    \"pos\": \"n\"\n  },\n  {\n    \"word\": \"look\",\n    \"pos\": \"v\"\n  },\n  {\n    \"word\": \"out\",\n    \"pos\": \"i\"\n  },\n  {\n    \"word\": \"such\",\n    \"pos\": \"d\"\n  },\n  {\n    \"word\": \"there\",\n    \"pos\": \"r\"\n  },\n  {\n    \"word\": \"long\",\n    \"pos\": \"j\"\n  },\n  {\n    \"word\": \"hand\",\n    \"pos\": \"n\"\n  },\n  {\n    \"word\": \"use\",\n    \"pos\": \"v\"\n  },\n  {\n    \"word\": \"against\",\n    \"pos\": \"i\"\n  },\n  {\n    \"word\": \"few\",\n    \"pos\": \"d\"\n  },\n  {\n    \"word\": \"down\",\n    \"pos\": \"r\"\n  },\n  {\n    \"word\": \"little\",\n    \"pos\": \"j\"\n  },\n  {\n    \"word\": \"part\",\n    \"pos\": \"n\"\n  },\n  {\n    \"word\": \"find\",\n    \"pos\": \"v\"\n  },\n  {\n    \"word\": \"during\",\n    \"pos\": \"i\"\n  },\n  {\n    \"word\": \"most\",\n    \"pos\": \"d\"\n  },\n  {\n    \"word\": \"still\",\n    \"pos\": \"r\"\n  },\n  {\n    \"word\": \"important\",\n    \"pos\": \"j\"\n  },\n  {\n    \"word\": \"place\",\n    \"pos\": \"n\"\n  },\n  {\n    \"word\": \"give\",\n    \"pos\": \"v\"\n  },\n  {\n    \"word\": \"without\",\n    \"pos\": \"i\"\n  },\n  {\n    \"word\": \"each\",\n    \"pos\": \"d\"\n  },\n  {\n    \"word\": \"in\",\n    \"pos\": \"r\"\n  },\n  {\n    \"word\": \"political\",\n    \"pos\": \"j\"\n  },\n  {\n    \"word\": \"case\",\n    \"pos\": \"n\"\n  },\n  {\n    \"word\": \"tell\",\n    \"pos\": \"v\"\n  },\n  {\n    \"word\": \"before\",\n    \"pos\": \"i\"\n  },\n  {\n    \"word\": \"both\",\n    \"pos\": \"d\"\n  },\n  {\n    \"word\": \"as\",\n    \"pos\": \"r\"\n  },\n  {\n    \"word\": \"bad\",\n    \"pos\": \"j\"\n  }\n]\n\nTask:\n1. Write one or more natural English sentences.\n2. Use as many target words as possible, preferably all of them.\n3. In English sentences, wrap every target word in Markdown bold, for example **apple**.\n4. Provide a Chinese translation for each English sentence.\n5. Provide a concise Chinese meaning for every target word.\n6. Keep the difficulty aligned with the selected level: easy, medium, or hard.\n\nOutput only valid JSON. Do not include Markdown fences or explanations.\n\nRequired JSON schema:\n{\n  \"word_meanings\": [\n    {\n      \"word\": \"apple\",\n      \"pos\": \"noun\",\n      \"chinese_meaning\": \"苹果\"\n    }\n  ],\n  \"sentences\": [\n    {\n      \"english\": \"I **eat** an **apple** every morning.\",\n      \"chinese\": \"我每天早上吃一个苹果。\"\n    }\n  ]\n}\n"
+}

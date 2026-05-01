@@ -1,0 +1,126 @@
+{
+  "group_id": 5,
+  "words": [
+    {
+      "word": "family",
+      "pos": "n"
+    },
+    {
+      "word": "see",
+      "pos": "v"
+    },
+    {
+      "word": "after",
+      "pos": "c"
+    },
+    {
+      "word": "through",
+      "pos": "i"
+    },
+    {
+      "word": "one",
+      "pos": "p"
+    },
+    {
+      "word": "another",
+      "pos": "d"
+    },
+    {
+      "word": "only",
+      "pos": "r"
+    },
+    {
+      "word": "young",
+      "pos": "j"
+    },
+    {
+      "word": "student",
+      "pos": "n"
+    },
+    {
+      "word": "come",
+      "pos": "v"
+    },
+    {
+      "word": "since",
+      "pos": "c"
+    },
+    {
+      "word": "after",
+      "pos": "i"
+    },
+    {
+      "word": "her",
+      "pos": "p"
+    },
+    {
+      "word": "much",
+      "pos": "d"
+    },
+    {
+      "word": "very",
+      "pos": "r"
+    },
+    {
+      "word": "different",
+      "pos": "j"
+    },
+    {
+      "word": "group",
+      "pos": "n"
+    },
+    {
+      "word": "could",
+      "pos": "v"
+    },
+    {
+      "word": "until",
+      "pos": "c"
+    },
+    {
+      "word": "over",
+      "pos": "i"
+    },
+    {
+      "word": "us",
+      "pos": "p"
+    },
+    {
+      "word": "own",
+      "pos": "d"
+    },
+    {
+      "word": "even",
+      "pos": "r"
+    },
+    {
+      "word": "black",
+      "pos": "j"
+    },
+    {
+      "word": "country",
+      "pos": "n"
+    },
+    {
+      "word": "want",
+      "pos": "v"
+    },
+    {
+      "word": "between",
+      "pos": "i"
+    },
+    {
+      "word": "something",
+      "pos": "p"
+    },
+    {
+      "word": "same",
+      "pos": "d"
+    },
+    {
+      "word": "back",
+      "pos": "r"
+    }
+  ],
+  "prompt": "You are an English vocabulary sentence generator for Chinese learners.\n\nDifficulty: hard\n\nTarget words:\n[\n  {\n    \"word\": \"family\",\n    \"pos\": \"n\"\n  },\n  {\n    \"word\": \"see\",\n    \"pos\": \"v\"\n  },\n  {\n    \"word\": \"after\",\n    \"pos\": \"c\"\n  },\n  {\n    \"word\": \"through\",\n    \"pos\": \"i\"\n  },\n  {\n    \"word\": \"one\",\n    \"pos\": \"p\"\n  },\n  {\n    \"word\": \"another\",\n    \"pos\": \"d\"\n  },\n  {\n    \"word\": \"only\",\n    \"pos\": \"r\"\n  },\n  {\n    \"word\": \"young\",\n    \"pos\": \"j\"\n  },\n  {\n    \"word\": \"student\",\n    \"pos\": \"n\"\n  },\n  {\n    \"word\": \"come\",\n    \"pos\": \"v\"\n  },\n  {\n    \"word\": \"since\",\n    \"pos\": \"c\"\n  },\n  {\n    \"word\": \"after\",\n    \"pos\": \"i\"\n  },\n  {\n    \"word\": \"her\",\n    \"pos\": \"p\"\n  },\n  {\n    \"word\": \"much\",\n    \"pos\": \"d\"\n  },\n  {\n    \"word\": \"very\",\n    \"pos\": \"r\"\n  },\n  {\n    \"word\": \"different\",\n    \"pos\": \"j\"\n  },\n  {\n    \"word\": \"group\",\n    \"pos\": \"n\"\n  },\n  {\n    \"word\": \"could\",\n    \"pos\": \"v\"\n  },\n  {\n    \"word\": \"until\",\n    \"pos\": \"c\"\n  },\n  {\n    \"word\": \"over\",\n    \"pos\": \"i\"\n  },\n  {\n    \"word\": \"us\",\n    \"pos\": \"p\"\n  },\n  {\n    \"word\": \"own\",\n    \"pos\": \"d\"\n  },\n  {\n    \"word\": \"even\",\n    \"pos\": \"r\"\n  },\n  {\n    \"word\": \"black\",\n    \"pos\": \"j\"\n  },\n  {\n    \"word\": \"country\",\n    \"pos\": \"n\"\n  },\n  {\n    \"word\": \"want\",\n    \"pos\": \"v\"\n  },\n  {\n    \"word\": \"between\",\n    \"pos\": \"i\"\n  },\n  {\n    \"word\": \"something\",\n    \"pos\": \"p\"\n  },\n  {\n    \"word\": \"same\",\n    \"pos\": \"d\"\n  },\n  {\n    \"word\": \"back\",\n    \"pos\": \"r\"\n  }\n]\n\nTask:\n1. Write one or more natural English sentences.\n2. Use as many target words as possible, preferably all of them.\n3. In English sentences, wrap every target word in Markdown bold, for example **apple**.\n4. Provide a Chinese translation for each English sentence.\n5. Provide a concise Chinese meaning for every target word.\n6. Keep the difficulty aligned with the selected level: easy, medium, or hard.\n\nOutput only valid JSON. Do not include Markdown fences or explanations.\n\nRequired JSON schema:\n{\n  \"word_meanings\": [\n    {\n      \"word\": \"apple\",\n      \"pos\": \"noun\",\n      \"chinese_meaning\": \"苹果\"\n    }\n  ],\n  \"sentences\": [\n    {\n      \"english\": \"I **eat** an **apple** every morning.\",\n      \"chinese\": \"我每天早上吃一个苹果。\"\n    }\n  ]\n}\n"
+}

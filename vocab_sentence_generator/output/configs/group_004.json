@@ -1,0 +1,126 @@
+{
+  "group_id": 4,
+  "words": [
+    {
+      "word": "child",
+      "pos": "n"
+    },
+    {
+      "word": "know",
+      "pos": "v"
+    },
+    {
+      "word": "no",
+      "pos": "a"
+    },
+    {
+      "word": "while",
+      "pos": "c"
+    },
+    {
+      "word": "about",
+      "pos": "i"
+    },
+    {
+      "word": "them",
+      "pos": "p"
+    },
+    {
+      "word": "many",
+      "pos": "d"
+    },
+    {
+      "word": "also",
+      "pos": "r"
+    },
+    {
+      "word": "small",
+      "pos": "j"
+    },
+    {
+      "word": "world",
+      "pos": "n"
+    },
+    {
+      "word": "will",
+      "pos": "v"
+    },
+    {
+      "word": "every",
+      "pos": "a"
+    },
+    {
+      "word": "where",
+      "pos": "c"
+    },
+    {
+      "word": "as",
+      "pos": "i"
+    },
+    {
+      "word": "me",
+      "pos": "p"
+    },
+    {
+      "word": "those",
+      "pos": "d"
+    },
+    {
+      "word": "here",
+      "pos": "r"
+    },
+    {
+      "word": "large",
+      "pos": "j"
+    },
+    {
+      "word": "school",
+      "pos": "n"
+    },
+    {
+      "word": "think",
+      "pos": "v"
+    },
+    {
+      "word": "so",
+      "pos": "c"
+    },
+    {
+      "word": "into",
+      "pos": "i"
+    },
+    {
+      "word": "him",
+      "pos": "p"
+    },
+    {
+      "word": "any",
+      "pos": "d"
+    },
+    {
+      "word": "well",
+      "pos": "r"
+    },
+    {
+      "word": "national",
+      "pos": "j"
+    },
+    {
+      "word": "state",
+      "pos": "n"
+    },
+    {
+      "word": "take",
+      "pos": "v"
+    },
+    {
+      "word": "though",
+      "pos": "c"
+    },
+    {
+      "word": "like",
+      "pos": "i"
+    }
+  ],
+  "prompt": "You are an English vocabulary sentence generator for Chinese learners.\n\nDifficulty: hard\n\nTarget words:\n[\n  {\n    \"word\": \"child\",\n    \"pos\": \"n\"\n  },\n  {\n    \"word\": \"know\",\n    \"pos\": \"v\"\n  },\n  {\n    \"word\": \"no\",\n    \"pos\": \"a\"\n  },\n  {\n    \"word\": \"while\",\n    \"pos\": \"c\"\n  },\n  {\n    \"word\": \"about\",\n    \"pos\": \"i\"\n  },\n  {\n    \"word\": \"them\",\n    \"pos\": \"p\"\n  },\n  {\n    \"word\": \"many\",\n    \"pos\": \"d\"\n  },\n  {\n    \"word\": \"also\",\n    \"pos\": \"r\"\n  },\n  {\n    \"word\": \"small\",\n    \"pos\": \"j\"\n  },\n  {\n    \"word\": \"world\",\n    \"pos\": \"n\"\n  },\n  {\n    \"word\": \"will\",\n    \"pos\": \"v\"\n  },\n  {\n    \"word\": \"every\",\n    \"pos\": \"a\"\n  },\n  {\n    \"word\": \"where\",\n    \"pos\": \"c\"\n  },\n  {\n    \"word\": \"as\",\n    \"pos\": \"i\"\n  },\n  {\n    \"word\": \"me\",\n    \"pos\": \"p\"\n  },\n  {\n    \"word\": \"those\",\n    \"pos\": \"d\"\n  },\n  {\n    \"word\": \"here\",\n    \"pos\": \"r\"\n  },\n  {\n    \"word\": \"large\",\n    \"pos\": \"j\"\n  },\n  {\n    \"word\": \"school\",\n    \"pos\": \"n\"\n  },\n  {\n    \"word\": \"think\",\n    \"pos\": \"v\"\n  },\n  {\n    \"word\": \"so\",\n    \"pos\": \"c\"\n  },\n  {\n    \"word\": \"into\",\n    \"pos\": \"i\"\n  },\n  {\n    \"word\": \"him\",\n    \"pos\": \"p\"\n  },\n  {\n    \"word\": \"any\",\n    \"pos\": \"d\"\n  },\n  {\n    \"word\": \"well\",\n    \"pos\": \"r\"\n  },\n  {\n    \"word\": \"national\",\n    \"pos\": \"j\"\n  },\n  {\n    \"word\": \"state\",\n    \"pos\": \"n\"\n  },\n  {\n    \"word\": \"take\",\n    \"pos\": \"v\"\n  },\n  {\n    \"word\": \"though\",\n    \"pos\": \"c\"\n  },\n  {\n    \"word\": \"like\",\n    \"pos\": \"i\"\n  }\n]\n\nTask:\n1. Write one or more natural English sentences.\n2. Use as many target words as possible, preferably all of them.\n3. In English sentences, wrap every target word in Markdown bold, for example **apple**.\n4. Provide a Chinese translation for each English sentence.\n5. Provide a concise Chinese meaning for every target word.\n6. Keep the difficulty aligned with the selected level: easy, medium, or hard.\n\nOutput only valid JSON. Do not include Markdown fences or explanations.\n\nRequired JSON schema:\n{\n  \"word_meanings\": [\n    {\n      \"word\": \"apple\",\n      \"pos\": \"noun\",\n      \"chinese_meaning\": \"苹果\"\n    }\n  ],\n  \"sentences\": [\n    {\n      \"english\": \"I **eat** an **apple** every morning.\",\n      \"chinese\": \"我每天早上吃一个苹果。\"\n    }\n  ]\n}\n"
+}

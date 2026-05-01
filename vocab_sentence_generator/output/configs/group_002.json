@@ -1,0 +1,126 @@
+{
+  "group_id": 2,
+  "words": [
+    {
+      "word": "way",
+      "pos": "n"
+    },
+    {
+      "word": "say",
+      "pos": "v"
+    },
+    {
+      "word": "their",
+      "pos": "a"
+    },
+    {
+      "word": "or",
+      "pos": "c"
+    },
+    {
+      "word": "for",
+      "pos": "i"
+    },
+    {
+      "word": "you",
+      "pos": "p"
+    },
+    {
+      "word": "what",
+      "pos": "d"
+    },
+    {
+      "word": "out",
+      "pos": "r"
+    },
+    {
+      "word": "first",
+      "pos": "m"
+    },
+    {
+      "word": "good",
+      "pos": "j"
+    },
+    {
+      "word": "day",
+      "pos": "n"
+    },
+    {
+      "word": "go",
+      "pos": "v"
+    },
+    {
+      "word": "her",
+      "pos": "a"
+    },
+    {
+      "word": "as",
+      "pos": "c"
+    },
+    {
+      "word": "with",
+      "pos": "i"
+    },
+    {
+      "word": "he",
+      "pos": "p"
+    },
+    {
+      "word": "all",
+      "pos": "d"
+    },
+    {
+      "word": "just",
+      "pos": "r"
+    },
+    {
+      "word": "last",
+      "pos": "m"
+    },
+    {
+      "word": "high",
+      "pos": "j"
+    },
+    {
+      "word": "man",
+      "pos": "n"
+    },
+    {
+      "word": "can",
+      "pos": "v"
+    },
+    {
+      "word": "my",
+      "pos": "a"
+    },
+    {
+      "word": "if",
+      "pos": "c"
+    },
+    {
+      "word": "on",
+      "pos": "i"
+    },
+    {
+      "word": "they",
+      "pos": "p"
+    },
+    {
+      "word": "which",
+      "pos": "d"
+    },
+    {
+      "word": "now",
+      "pos": "r"
+    },
+    {
+      "word": "three",
+      "pos": "m"
+    },
+    {
+      "word": "old",
+      "pos": "j"
+    }
+  ],
+  "prompt": "You are an English vocabulary sentence generator for Chinese learners.\n\nDifficulty: hard\n\nTarget words:\n[\n  {\n    \"word\": \"way\",\n    \"pos\": \"n\"\n  },\n  {\n    \"word\": \"say\",\n    \"pos\": \"v\"\n  },\n  {\n    \"word\": \"their\",\n    \"pos\": \"a\"\n  },\n  {\n    \"word\": \"or\",\n    \"pos\": \"c\"\n  },\n  {\n    \"word\": \"for\",\n    \"pos\": \"i\"\n  },\n  {\n    \"word\": \"you\",\n    \"pos\": \"p\"\n  },\n  {\n    \"word\": \"what\",\n    \"pos\": \"d\"\n  },\n  {\n    \"word\": \"out\",\n    \"pos\": \"r\"\n  },\n  {\n    \"word\": \"first\",\n    \"pos\": \"m\"\n  },\n  {\n    \"word\": \"good\",\n    \"pos\": \"j\"\n  },\n  {\n    \"word\": \"day\",\n    \"pos\": \"n\"\n  },\n  {\n    \"word\": \"go\",\n    \"pos\": \"v\"\n  },\n  {\n    \"word\": \"her\",\n    \"pos\": \"a\"\n  },\n  {\n    \"word\": \"as\",\n    \"pos\": \"c\"\n  },\n  {\n    \"word\": \"with\",\n    \"pos\": \"i\"\n  },\n  {\n    \"word\": \"he\",\n    \"pos\": \"p\"\n  },\n  {\n    \"word\": \"all\",\n    \"pos\": \"d\"\n  },\n  {\n    \"word\": \"just\",\n    \"pos\": \"r\"\n  },\n  {\n    \"word\": \"last\",\n    \"pos\": \"m\"\n  },\n  {\n    \"word\": \"high\",\n    \"pos\": \"j\"\n  },\n  {\n    \"word\": \"man\",\n    \"pos\": \"n\"\n  },\n  {\n    \"word\": \"can\",\n    \"pos\": \"v\"\n  },\n  {\n    \"word\": \"my\",\n    \"pos\": \"a\"\n  },\n  {\n    \"word\": \"if\",\n    \"pos\": \"c\"\n  },\n  {\n    \"word\": \"on\",\n    \"pos\": \"i\"\n  },\n  {\n    \"word\": \"they\",\n    \"pos\": \"p\"\n  },\n  {\n    \"word\": \"which\",\n    \"pos\": \"d\"\n  },\n  {\n    \"word\": \"now\",\n    \"pos\": \"r\"\n  },\n  {\n    \"word\": \"three\",\n    \"pos\": \"m\"\n  },\n  {\n    \"word\": \"old\",\n    \"pos\": \"j\"\n  }\n]\n\nTask:\n1. Write one or more natural English sentences.\n2. Use as many target words as possible, preferably all of them.\n3. In English sentences, wrap every target word in Markdown bold, for example **apple**.\n4. Provide a Chinese translation for each English sentence.\n5. Provide a concise Chinese meaning for every target word.\n6. Keep the difficulty aligned with the selected level: easy, medium, or hard.\n\nOutput only valid JSON. Do not include Markdown fences or explanations.\n\nRequired JSON schema:\n{\n  \"word_meanings\": [\n    {\n      \"word\": \"apple\",\n      \"pos\": \"noun\",\n      \"chinese_meaning\": \"苹果\"\n    }\n  ],\n  \"sentences\": [\n    {\n      \"english\": \"I **eat** an **apple** every morning.\",\n      \"chinese\": \"我每天早上吃一个苹果。\"\n    }\n  ]\n}\n"
+}

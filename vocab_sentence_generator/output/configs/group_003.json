@@ -1,0 +1,126 @@
+{
+  "group_id": 3,
+  "words": [
+    {
+      "word": "thing",
+      "pos": "n"
+    },
+    {
+      "word": "get",
+      "pos": "v"
+    },
+    {
+      "word": "your",
+      "pos": "a"
+    },
+    {
+      "word": "when",
+      "pos": "c"
+    },
+    {
+      "word": "at",
+      "pos": "i"
+    },
+    {
+      "word": "we",
+      "pos": "p"
+    },
+    {
+      "word": "some",
+      "pos": "d"
+    },
+    {
+      "word": "how",
+      "pos": "r"
+    },
+    {
+      "word": "next",
+      "pos": "m"
+    },
+    {
+      "word": "great",
+      "pos": "j"
+    },
+    {
+      "word": "woman",
+      "pos": "n"
+    },
+    {
+      "word": "would",
+      "pos": "v"
+    },
+    {
+      "word": "its",
+      "pos": "a"
+    },
+    {
+      "word": "than",
+      "pos": "c"
+    },
+    {
+      "word": "from",
+      "pos": "i"
+    },
+    {
+      "word": "she",
+      "pos": "p"
+    },
+    {
+      "word": "these",
+      "pos": "d"
+    },
+    {
+      "word": "then",
+      "pos": "r"
+    },
+    {
+      "word": "million",
+      "pos": "m"
+    },
+    {
+      "word": "big",
+      "pos": "j"
+    },
+    {
+      "word": "life",
+      "pos": "n"
+    },
+    {
+      "word": "make",
+      "pos": "v"
+    },
+    {
+      "word": "our",
+      "pos": "a"
+    },
+    {
+      "word": "because",
+      "pos": "c"
+    },
+    {
+      "word": "by",
+      "pos": "i"
+    },
+    {
+      "word": "who",
+      "pos": "p"
+    },
+    {
+      "word": "more",
+      "pos": "d"
+    },
+    {
+      "word": "more",
+      "pos": "r"
+    },
+    {
+      "word": "four",
+      "pos": "m"
+    },
+    {
+      "word": "American",
+      "pos": "j"
+    }
+  ],
+  "prompt": "You are an English vocabulary sentence generator for Chinese learners.\n\nDifficulty: hard\n\nTarget words:\n[\n  {\n    \"word\": \"thing\",\n    \"pos\": \"n\"\n  },\n  {\n    \"word\": \"get\",\n    \"pos\": \"v\"\n  },\n  {\n    \"word\": \"your\",\n    \"pos\": \"a\"\n  },\n  {\n    \"word\": \"when\",\n    \"pos\": \"c\"\n  },\n  {\n    \"word\": \"at\",\n    \"pos\": \"i\"\n  },\n  {\n    \"word\": \"we\",\n    \"pos\": \"p\"\n  },\n  {\n    \"word\": \"some\",\n    \"pos\": \"d\"\n  },\n  {\n    \"word\": \"how\",\n    \"pos\": \"r\"\n  },\n  {\n    \"word\": \"next\",\n    \"pos\": \"m\"\n  },\n  {\n    \"word\": \"great\",\n    \"pos\": \"j\"\n  },\n  {\n    \"word\": \"woman\",\n    \"pos\": \"n\"\n  },\n  {\n    \"word\": \"would\",\n    \"pos\": \"v\"\n  },\n  {\n    \"word\": \"its\",\n    \"pos\": \"a\"\n  },\n  {\n    \"word\": \"than\",\n    \"pos\": \"c\"\n  },\n  {\n    \"word\": \"from\",\n    \"pos\": \"i\"\n  },\n  {\n    \"word\": \"she\",\n    \"pos\": \"p\"\n  },\n  {\n    \"word\": \"these\",\n    \"pos\": \"d\"\n  },\n  {\n    \"word\": \"then\",\n    \"pos\": \"r\"\n  },\n  {\n    \"word\": \"million\",\n    \"pos\": \"m\"\n  },\n  {\n    \"word\": \"big\",\n    \"pos\": \"j\"\n  },\n  {\n    \"word\": \"life\",\n    \"pos\": \"n\"\n  },\n  {\n    \"word\": \"make\",\n    \"pos\": \"v\"\n  },\n  {\n    \"word\": \"our\",\n    \"pos\": \"a\"\n  },\n  {\n    \"word\": \"because\",\n    \"pos\": \"c\"\n  },\n  {\n    \"word\": \"by\",\n    \"pos\": \"i\"\n  },\n  {\n    \"word\": \"who\",\n    \"pos\": \"p\"\n  },\n  {\n    \"word\": \"more\",\n    \"pos\": \"d\"\n  },\n  {\n    \"word\": \"more\",\n    \"pos\": \"r\"\n  },\n  {\n    \"word\": \"four\",\n    \"pos\": \"m\"\n  },\n  {\n    \"word\": \"American\",\n    \"pos\": \"j\"\n  }\n]\n\nTask:\n1. Write one or more natural English sentences.\n2. Use as many target words as possible, preferably all of them.\n3. In English sentences, wrap every target word in Markdown bold, for example **apple**.\n4. Provide a Chinese translation for each English sentence.\n5. Provide a concise Chinese meaning for every target word.\n6. Keep the difficulty aligned with the selected level: easy, medium, or hard.\n\nOutput only valid JSON. Do not include Markdown fences or explanations.\n\nRequired JSON schema:\n{\n  \"word_meanings\": [\n    {\n      \"word\": \"apple\",\n      \"pos\": \"noun\",\n      \"chinese_meaning\": \"苹果\"\n    }\n  ],\n  \"sentences\": [\n    {\n      \"english\": \"I **eat** an **apple** every morning.\",\n      \"chinese\": \"我每天早上吃一个苹果。\"\n    }\n  ]\n}\n"
+}

@@ -1,0 +1,122 @@
+{
+  "group_id": 10,
+  "words": [
+    {
+      "word": "head",
+      "pos": "n"
+    },
+    {
+      "word": "bring",
+      "pos": "v"
+    },
+    {
+      "word": "house",
+      "pos": "n"
+    },
+    {
+      "word": "happen",
+      "pos": "v"
+    },
+    {
+      "word": "service",
+      "pos": "n"
+    },
+    {
+      "word": "must",
+      "pos": "v"
+    },
+    {
+      "word": "friend",
+      "pos": "n"
+    },
+    {
+      "word": "write",
+      "pos": "v"
+    },
+    {
+      "word": "father",
+      "pos": "n"
+    },
+    {
+      "word": "provide",
+      "pos": "v"
+    },
+    {
+      "word": "power",
+      "pos": "n"
+    },
+    {
+      "word": "sit",
+      "pos": "v"
+    },
+    {
+      "word": "hour",
+      "pos": "n"
+    },
+    {
+      "word": "stand",
+      "pos": "v"
+    },
+    {
+      "word": "game",
+      "pos": "n"
+    },
+    {
+      "word": "lose",
+      "pos": "v"
+    },
+    {
+      "word": "line",
+      "pos": "n"
+    },
+    {
+      "word": "pay",
+      "pos": "v"
+    },
+    {
+      "word": "end",
+      "pos": "n"
+    },
+    {
+      "word": "meet",
+      "pos": "v"
+    },
+    {
+      "word": "member",
+      "pos": "n"
+    },
+    {
+      "word": "include",
+      "pos": "v"
+    },
+    {
+      "word": "law",
+      "pos": "n"
+    },
+    {
+      "word": "continue",
+      "pos": "v"
+    },
+    {
+      "word": "car",
+      "pos": "n"
+    },
+    {
+      "word": "set",
+      "pos": "v"
+    },
+    {
+      "word": "city",
+      "pos": "n"
+    },
+    {
+      "word": "community",
+      "pos": "n"
+    },
+    {
+      "word": "name",
+      "pos": "n"
+    }
+  ],
+  "prompt": "You are an English vocabulary sentence generator for Chinese learners.\n\nDifficulty: hard\n\nTarget words:\n[\n  {\n    \"word\": \"head\",\n    \"pos\": \"n\"\n  },\n  {\n    \"word\": \"bring\",\n    \"pos\": \"v\"\n  },\n  {\n    \"word\": \"house\",\n    \"pos\": \"n\"\n  },\n  {\n    \"word\": \"happen\",\n    \"pos\": \"v\"\n  },\n  {\n    \"word\": \"service\",\n    \"pos\": \"n\"\n  },\n  {\n    \"word\": \"must\",\n    \"pos\": \"v\"\n  },\n  {\n    \"word\": \"friend\",\n    \"pos\": \"n\"\n  },\n  {\n    \"word\": \"write\",\n    \"pos\": \"v\"\n  },\n  {\n    \"word\": \"father\",\n    \"pos\": \"n\"\n  },\n  {\n    \"word\": \"provide\",\n    \"pos\": \"v\"\n  },\n  {\n    \"word\": \"power\",\n    \"pos\": \"n\"\n  },\n  {\n    \"word\": \"sit\",\n    \"pos\": \"v\"\n  },\n  {\n    \"word\": \"hour\",\n    \"pos\": \"n\"\n  },\n  {\n    \"word\": \"stand\",\n    \"pos\": \"v\"\n  },\n  {\n    \"word\": \"game\",\n    \"pos\": \"n\"\n  },\n  {\n    \"word\": \"lose\",\n    \"pos\": \"v\"\n  },\n  {\n    \"word\": \"line\",\n    \"pos\": \"n\"\n  },\n  {\n    \"word\": \"pay\",\n    \"pos\": \"v\"\n  },\n  {\n    \"word\": \"end\",\n    \"pos\": \"n\"\n  },\n  {\n    \"word\": \"meet\",\n    \"pos\": \"v\"\n  },\n  {\n    \"word\": \"member\",\n    \"pos\": \"n\"\n  },\n  {\n    \"word\": \"include\",\n    \"pos\": \"v\"\n  },\n  {\n    \"word\": \"law\",\n    \"pos\": \"n\"\n  },\n  {\n    \"word\": \"continue\",\n    \"pos\": \"v\"\n  },\n  {\n    \"word\": \"car\",\n    \"pos\": \"n\"\n  },\n  {\n    \"word\": \"set\",\n    \"pos\": \"v\"\n  },\n  {\n    \"word\": \"city\",\n    \"pos\": \"n\"\n  },\n  {\n    \"word\": \"community\",\n    \"pos\": \"n\"\n  },\n  {\n    \"word\": \"name\",\n    \"pos\": \"n\"\n  }\n]\n\nTask:\n1. Write one or more natural English sentences.\n2. Use as many target words as possible, preferably all of them.\n3. In English sentences, wrap every target word in Markdown bold, for example **apple**.\n4. Provide a Chinese translation for each English sentence.\n5. Provide a concise Chinese meaning for every target word.\n6. Keep the difficulty aligned with the selected level: easy, medium, or hard.\n\nOutput only valid JSON. Do not include Markdown fences or explanations.\n\nRequired JSON schema:\n{\n  \"word_meanings\": [\n    {\n      \"word\": \"apple\",\n      \"pos\": \"noun\",\n      \"chinese_meaning\": \"苹果\"\n    }\n  ],\n  \"sentences\": [\n    {\n      \"english\": \"I **eat** an **apple** every morning.\",\n      \"chinese\": \"我每天早上吃一个苹果。\"\n    }\n  ]\n}\n"
+}

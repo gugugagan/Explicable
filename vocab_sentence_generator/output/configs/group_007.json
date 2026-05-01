@@ -1,0 +1,126 @@
+{
+  "group_id": 7,
+  "words": [
+    {
+      "word": "week",
+      "pos": "n"
+    },
+    {
+      "word": "work",
+      "pos": "v"
+    },
+    {
+      "word": "under",
+      "pos": "i"
+    },
+    {
+      "word": "too",
+      "pos": "r"
+    },
+    {
+      "word": "company",
+      "pos": "n"
+    },
+    {
+      "word": "may",
+      "pos": "v"
+    },
+    {
+      "word": "around",
+      "pos": "i"
+    },
+    {
+      "word": "when",
+      "pos": "r"
+    },
+    {
+      "word": "system",
+      "pos": "n"
+    },
+    {
+      "word": "should",
+      "pos": "v"
+    },
+    {
+      "word": "among",
+      "pos": "i"
+    },
+    {
+      "word": "never",
+      "pos": "r"
+    },
+    {
+      "word": "program",
+      "pos": "n"
+    },
+    {
+      "word": "call",
+      "pos": "v"
+    },
+    {
+      "word": "really",
+      "pos": "r"
+    },
+    {
+      "word": "question",
+      "pos": "n"
+    },
+    {
+      "word": "try",
+      "pos": "v"
+    },
+    {
+      "word": "most",
+      "pos": "r"
+    },
+    {
+      "word": "work",
+      "pos": "n"
+    },
+    {
+      "word": "ask",
+      "pos": "v"
+    },
+    {
+      "word": "on",
+      "pos": "r"
+    },
+    {
+      "word": "government",
+      "pos": "n"
+    },
+    {
+      "word": "need",
+      "pos": "v"
+    },
+    {
+      "word": "why",
+      "pos": "r"
+    },
+    {
+      "word": "number",
+      "pos": "n"
+    },
+    {
+      "word": "feel",
+      "pos": "v"
+    },
+    {
+      "word": "about",
+      "pos": "r"
+    },
+    {
+      "word": "night",
+      "pos": "n"
+    },
+    {
+      "word": "become",
+      "pos": "v"
+    },
+    {
+      "word": "over",
+      "pos": "r"
+    }
+  ],
+  "prompt": "You are an English vocabulary sentence generator for Chinese learners.\n\nDifficulty: hard\n\nTarget words:\n[\n  {\n    \"word\": \"week\",\n    \"pos\": \"n\"\n  },\n  {\n    \"word\": \"work\",\n    \"pos\": \"v\"\n  },\n  {\n    \"word\": \"under\",\n    \"pos\": \"i\"\n  },\n  {\n    \"word\": \"too\",\n    \"pos\": \"r\"\n  },\n  {\n    \"word\": \"company\",\n    \"pos\": \"n\"\n  },\n  {\n    \"word\": \"may\",\n    \"pos\": \"v\"\n  },\n  {\n    \"word\": \"around\",\n    \"pos\": \"i\"\n  },\n  {\n    \"word\": \"when\",\n    \"pos\": \"r\"\n  },\n  {\n    \"word\": \"system\",\n    \"pos\": \"n\"\n  },\n  {\n    \"word\": \"should\",\n    \"pos\": \"v\"\n  },\n  {\n    \"word\": \"among\",\n    \"pos\": \"i\"\n  },\n  {\n    \"word\": \"never\",\n    \"pos\": \"r\"\n  },\n  {\n    \"word\": \"program\",\n    \"pos\": \"n\"\n  },\n  {\n    \"word\": \"call\",\n    \"pos\": \"v\"\n  },\n  {\n    \"word\": \"really\",\n    \"pos\": \"r\"\n  },\n  {\n    \"word\": \"question\",\n    \"pos\": \"n\"\n  },\n  {\n    \"word\": \"try\",\n    \"pos\": \"v\"\n  },\n  {\n    \"word\": \"most\",\n    \"pos\": \"r\"\n  },\n  {\n    \"word\": \"work\",\n    \"pos\": \"n\"\n  },\n  {\n    \"word\": \"ask\",\n    \"pos\": \"v\"\n  },\n  {\n    \"word\": \"on\",\n    \"pos\": \"r\"\n  },\n  {\n    \"word\": \"government\",\n    \"pos\": \"n\"\n  },\n  {\n    \"word\": \"need\",\n    \"pos\": \"v\"\n  },\n  {\n    \"word\": \"why\",\n    \"pos\": \"r\"\n  },\n  {\n    \"word\": \"number\",\n    \"pos\": \"n\"\n  },\n  {\n    \"word\": \"feel\",\n    \"pos\": \"v\"\n  },\n  {\n    \"word\": \"about\",\n    \"pos\": \"r\"\n  },\n  {\n    \"word\": \"night\",\n    \"pos\": \"n\"\n  },\n  {\n    \"word\": \"become\",\n    \"pos\": \"v\"\n  },\n  {\n    \"word\": \"over\",\n    \"pos\": \"r\"\n  }\n]\n\nTask:\n1. Write one or more natural English sentences.\n2. Use as many target words as possible, preferably all of them.\n3. In English sentences, wrap every target word in Markdown bold, for example **apple**.\n4. Provide a Chinese translation for each English sentence.\n5. Provide a concise Chinese meaning for every target word.\n6. Keep the difficulty aligned with the selected level: easy, medium, or hard.\n\nOutput only valid JSON. Do not include Markdown fences or explanations.\n\nRequired JSON schema:\n{\n  \"word_meanings\": [\n    {\n      \"word\": \"apple\",\n      \"pos\": \"noun\",\n      \"chinese_meaning\": \"苹果\"\n    }\n  ],\n  \"sentences\": [\n    {\n      \"english\": \"I **eat** an **apple** every morning.\",\n      \"chinese\": \"我每天早上吃一个苹果。\"\n    }\n  ]\n}\n"
+}
