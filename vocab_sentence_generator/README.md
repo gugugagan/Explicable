@@ -1,6 +1,6 @@
-# Anki Vocabulary Sentence Generator / 单词句子生成器
+# Explicable
 
-一个 1-2 天 MVP 规模的桌面工具：导入 CSV 单词表，按每日背词数量自动分组，为每组生成 AI prompt，可调用 OpenAI 生成英文例句、中文翻译和中文释义，最后导出 Markdown。
+一个轻量化的桌面工具：导入 CSV 单词表，按每日背词数量自动分组，为每组生成 AI prompt，可调用 OpenAI 生成英文例句、中文翻译和中文释义，最后导出 Markdown。
 
 ## 功能
 
